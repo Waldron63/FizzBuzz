@@ -6,46 +6,110 @@ import org.junit.jupiter.api.Test;
 public class FizzBuzzTest {
 
     @Test
-    void testFizzBuzzReturnsNumber() {
-        assertEquals("1", FizzBuzz.fizzbuzz(1));
-    }
-    @Test
-    void testFizzBuzzMultiplo3() {
-        assertEquals("Fizz", FizzBuzz.fizzbuzz(3));
+    void given_FizzBuzz_When_Input1_Then_Expected1() {
+        // Arrange
+        int input = 1;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("1", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo5() {
-        assertEquals("Buzz", FizzBuzz.fizzbuzz(5));
+    void given_FizzBuzz_When_Input3_Then_ExpectedFizz() {
+        // Arrange
+        int input = 3;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("Fizz", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo3y5() {
-        assertEquals("FizzBuzz", FizzBuzz.fizzbuzz(15));
+    void given_FizzBuzz_When_Input5_Then_ExpectedBuzz() {
+        // Arrange
+        int input = 5;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("Buzz", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo0() {
-        assertEquals("FizzBuzz", FizzBuzz.fizzbuzz(0));
+    void given_FizzBuzz_When_Input15_Then_ExpectedFizzBuzz() {
+        // Arrange
+        int input = 15;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("FizzBuzz", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo3Negativo() {
-        assertEquals("Fizz", FizzBuzz.fizzbuzz(-3));
+    void given_FizzBuzz_When_Input0_Then_ExpectedFizzBuzz() {
+        // Arrange
+        int input = 0;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("FizzBuzz", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo5Negativo() {
-        assertEquals("Buzz", FizzBuzz.fizzbuzz(-5));
+    void given_FizzBuzz_When_InputMinus3_Then_ExpectedFizz() {
+        // Arrange
+        int input = -3;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("Fizz", result);
     }
 
     @Test
-    void testFizzBuzzMultiplo3y5Negativo() {
-        assertEquals("FizzBuzz", FizzBuzz.fizzbuzz(15));
+    void given_FizzBuzz_When_InputMinus5_Then_ExpectedBuzz() {
+        // Arrange
+        int input = -5;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("Buzz", result);
     }
 
     @Test
-    void testFizzBuzzReturnsNegativeNumber() {
-        assertEquals("-4", FizzBuzz.fizzbuzz(-4));
+    void given_FizzBuzz_When_InputMinus15_Then_ExpectedFizzBuzz() {
+        // Arrange
+        int input = -15;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("FizzBuzz", result);
+    }
+
+    @Test
+    void given_FizzBuzz_When_InputMinus4_Then_Expected1() {
+        // Arrange
+        int input = -4;
+
+        // Act
+        String result = FizzBuzz.fizzbuzz(input);
+
+        // Assert
+        assertEquals("-4", result);
     }
 }
