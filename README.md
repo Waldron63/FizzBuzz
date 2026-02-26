@@ -101,19 +101,26 @@ Clase principal con el método `main` que ejecuta el programa. Itera del 1 al 10
 
 ## Ejecución
 
-<!-- Próximamente -->
+Ejecución del proyecto mediante App:
+
+<img width="1819" height="942" alt="image" src="https://github.com/user-attachments/assets/078bd617-1af6-4ae2-a25e-bf0cb647dcfb" />
+
+Ejecución de las pruebas unitarias:
+
+<img width="1808" height="950" alt="image" src="https://github.com/user-attachments/assets/e9b95a54-4259-454e-b952-8e93b0cde7cb" />
 
 ---
 
 ## Construido con
 
-- **Java 17** — Lenguaje de programación principal
-- **Maven 3.8+** — Gestión de dependencias y ciclo de vida del proyecto
-- **JUnit Jupiter 5.7.1** — Framework de pruebas unitarias
-- **IntelliJ IDEA / VS Code** — Entornos de desarrollo recomendados
+- [Java 17](https://www.java.com/es/) — Lenguaje de programación principal
+- [Maven 3.8+](https://maven.apache.org/index.html) — Gestión de dependencias y ciclo de vida del proyecto
+- [JUnit Jupiter 5.7.1](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter/5.7.1) — Framework de pruebas unitarias
+- [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/) — Entorno de desarrollo recomendado
+- [Git y Github](https://git-scm.com) — Plataforma y control de versiones
 
 ---
 
 ## Autor
 
-**Waldron63** — [github.com/Waldron63](https://github.com/Waldron63)
+**Waldron63** — [Waldron63](https://github.com/Waldron63)
